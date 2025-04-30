@@ -2,10 +2,10 @@
  * The Dog class represents a dog with a name, breed, and weight.
  * It provides constructors, getters, and setters for each instance variable.
  */
-public class Dog{
+class Dog{
     private String name;
     private String breed;
-    private double weight;
+    private int weight;
 
 
 /**
@@ -16,7 +16,7 @@ public class Dog{
  * @param weight the weight of the dog in kilograms
  */
 
- public Dog(String name, String breed, double weight){
+ public Dog(String name, String breed, int weight){
      this.name = name;
      this.breed = breed;
      this.weight = weight;
@@ -42,6 +42,16 @@ public void setName(String name){
 }
 
 /**
+ * Gets the dog's breed
+ * 
+ * @return the dog's breed
+*/
+public String getBreed(){
+    return breed;
+}
+  
+
+/**
  * Sets the dog's breed.
  * 
  * @param breed the new breed for the dog
@@ -55,7 +65,7 @@ public void setBreed(String breed){
  * 
  * @return the dog's weight in kilograms
  */
-public double getWeight(){
+public int getWeight(){
     return weight;
 }
 
@@ -65,7 +75,7 @@ public double getWeight(){
  * @param weight the new weight for the dog in kilogrmas
  * 
  */
-public void setWeight(double weight){
+public void setWeight(int weight){
     this.weight = weight;
 }
 }
