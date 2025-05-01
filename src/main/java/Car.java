@@ -1,6 +1,7 @@
 /**
- * The Car class represents a car with a make , model, year, and price.
- * It provides constructors, getters, and setters for each instance variable.
+ * The Car class represents a car with a make, model, year and price.
+ * @author Kelly Fu
+ * @version 17.0.1
  */
 public class Car {
     private String make;

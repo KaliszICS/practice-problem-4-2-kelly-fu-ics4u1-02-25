@@ -1,6 +1,7 @@
 /**
  * The Dog class represents a dog with a name, breed, and weight.
- * It provides constructors, getters, and setters for each instance variable.
+ * @author Kelly Fu
+ * @version 17.0.1
  */
 class Dog{
     private String name;
